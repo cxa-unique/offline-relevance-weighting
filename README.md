@@ -24,10 +24,10 @@ This repository contains some resources of our paper:
 3. Retrieval run files (**top-1,000**):
    * TREC-19-DL-Passage: [BM25](https://drive.google.com/file/d/1_AyvVVbcGesSwg98ULcvi1QByRBATO9i/view?usp=sharing), 
    [Ours(s=30)](https://drive.google.com/file/d/1IlrbgscRpxefcEpNSegImDpfZlTSsnWm/view?usp=sharing), 
-   [Ours(s=50)](https://drive.google.com/file/d/1_qzy4r3lXtww70rJ559hDfCSHHas0WiV/view?usp=sharing).
+   [Ours(s=50)](https://drive.google.com/file/d/17M-CJd5G6fcqQ1DodnYKzNhlzuD4tNSA/view?usp=sharing).
    * TREC-20-DL-Passage: [BM25](https://drive.google.com/file/d/1zPqTqWEjD9WbAo40WOFznfJNlpjq57Ud/view?usp=sharing), 
    [Ours(s=30)](https://drive.google.com/file/d/1BK9NG7_bPw_6HD3rxLrNxxnFKRuFvJ04/view?usp=sharing), 
-   [Ours(s=50)](https://drive.google.com/file/d/19L-qcpTf-Wly3QVwOuazEGuYzOxs-MRR/view?usp=sharing).
+   [Ours(s=50)](https://drive.google.com/file/d/1pEeGQXeEXLvNnxtyN9iVtwaEyARSUhvq/view?usp=sharing).
    * TREC-19-DL-Document: [BM25](https://drive.google.com/file/d/1LyVmDVDUg9Zd6cUKYx35uZ_4-GlMQehz/view?usp=sharing), 
    [Ours(s=30)](https://drive.google.com/file/d/1KCBYBX5X6R190eJIMT2G3VqL9zgpFrli/view?usp=sharing), 
    [Ours(s=50)](https://drive.google.com/file/d/1wu-uBhaiJ0iJD9Bl9Hu8CRnd427hyRP9/view?usp=sharing).

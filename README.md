@@ -8,13 +8,13 @@ This repository contains some resources of our paper:
    * TREC-20-DL-Passage: [Download](https://drive.google.com/file/d/1UDVDMTNjdfBdW5-Yc2Il3fb-4XBrTIQD/view?usp=sharing)
    * TREC-19-DL-Document: [Download](https://drive.google.com/file/d/1UcPctPsa80CuK3oFl_sILG-qLD7bgoQO/view?usp=sharing)
    * TREC-20-DL-Document: [Download](https://drive.google.com/file/d/1Z7wZYOnGFLtTE8nyIZPYXcfOWGEywufP/view?usp=sharing)
-   * Format: seed_doc_id \t neighbour_doc_id \t rank \t recall_frequency \t best_bm25_score \n
+   * Format: `seed_doc_id \t neighbour_doc_id \t rank \t recall_frequency \t best_bm25_score \n`
 2. The final relevance score of all recalled neighbour documents<sup>*</sup>:
    * TREC-19-DL-Passage: [Download](https://drive.google.com/file/d/1yYtk5vOoCDYGRQPYOjWvn2X_VvL7R6W5/view?usp=sharing)
    * TREC-20-DL-Passage: [Download](https://drive.google.com/file/d/1S9CPnwrhy7ddemnTnhqEtS2VUdva8riS/view?usp=sharing)
    * TREC-19-DL-Document: [Download](https://drive.google.com/file/d/1VEumyY7VSsj5ebWvPcOIcS_7ug4yJv-I/view?usp=sharing)
    * TREC-20-DL-Document: [Download](https://drive.google.com/file/d/1zLyi3b1BNzDW3GnyiX-niQBt7eSdgxJJ/view?usp=sharing)
-   * Format: query_id \t neighbour_doc_id \t rank \t rel_score \n
+   * Format: `query_id \t neighbour_doc_id \t rank \t rel_score \n`
    
    <sup>*</sup> Note that here the neighbour documents belong to the 
    top-100 (**s=100**) seed documents by BM25, and the `neighbour document` for 

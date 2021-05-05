@@ -1,6 +1,6 @@
 # Contextualized Offline Relevance Weighting
 This repository contains some resources of our paper:
-- [Contextualized Offline Relevance Weighting for Efficient and Effective Neural Retrieval](). In *SIGIR 2021*.
+- Contextualized Offline Relevance Weighting for Efficient and Effective Neural Retrieval. In *SIGIR 2021*.
 
 ## Resources
 1. Selected neighbour documents<sup>*</sup>: 
@@ -9,14 +9,14 @@ This repository contains some resources of our paper:
    * TREC-19-DL-Document: [Download](https://drive.google.com/file/d/1UcPctPsa80CuK3oFl_sILG-qLD7bgoQO/view?usp=sharing)
    * TREC-20-DL-Document: [Download](https://drive.google.com/file/d/1Z7wZYOnGFLtTE8nyIZPYXcfOWGEywufP/view?usp=sharing)
    * Format: `seed_doc_id \t neighbour_doc_id \t rank \t recall_frequency \t best_bm25_score \n`
-2. The final relevance score of all recalled neighbour documents<sup>*</sup>:
+2. The final relevance scores of all recalled neighbour documents<sup>*</sup>:
    * TREC-19-DL-Passage: [Download](https://drive.google.com/file/d/1yYtk5vOoCDYGRQPYOjWvn2X_VvL7R6W5/view?usp=sharing)
    * TREC-20-DL-Passage: [Download](https://drive.google.com/file/d/1S9CPnwrhy7ddemnTnhqEtS2VUdva8riS/view?usp=sharing)
    * TREC-19-DL-Document: [Download](https://drive.google.com/file/d/1VEumyY7VSsj5ebWvPcOIcS_7ug4yJv-I/view?usp=sharing)
    * TREC-20-DL-Document: [Download](https://drive.google.com/file/d/1zLyi3b1BNzDW3GnyiX-niQBt7eSdgxJJ/view?usp=sharing)
    * Format: `query_id \t neighbour_doc_id \t rank \t rel_score \n`
    
-   <sup>*</sup> Note that here the neighbour documents belong to the 
+   <sup>*</sup> Note that the neighbour documents here belong to the 
    top-100 (**s=100**) seed documents by BM25, and the `neighbour document` for 
    document ranking task refers to the passages segmented from documents
    using the script `convert_msmarco_passages_doc_to_anserini.py` in 
@@ -34,7 +34,8 @@ This repository contains some resources of our paper:
    * TREC-20-DL-Document: [BM25](https://drive.google.com/file/d/1FW9mlM6Sfro7cwdiRKp-kd7SmpFxW4Gi/view?usp=sharing), 
    [Ours(s=30)](https://drive.google.com/file/d/1k0ET2ehcAlhqhl1MZfOkal7rJvIKlAuN/view?usp=sharing), 
    [Ours(s=50)](https://drive.google.com/file/d/1F7URsZLxek9dK7r8DPydx3LoQfz9FbWq/view?usp=sharing).
-
+   * Format: `query_id Q0 doc_id rank score run_name`
+   
 For more details of our method and experiments, please refer to our paper.
 
 ## Citation

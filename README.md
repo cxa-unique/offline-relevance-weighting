@@ -2,6 +2,15 @@
 This repository contains some resources of our paper:
 - Contextualized Offline Relevance Weighting for Efficient and Effective Neural Retrieval. In *SIGIR 2021*.
 
+## Framework
+1. Offline System
+
+![image](https://github.com/cxa-unique/offline-relevance-weighting/blob/main/offline_system.bmp)
+
+2. Online System
+
+![image](https://github.com/cxa-unique/offline-relevance-weighting/blob/main/online_system.bmp)
+
 ## Resources
 1. Selected neighbour documents<sup>*</sup>: 
    * TREC-19-DL-Passage: [Download](https://drive.google.com/file/d/1HeDNMc_g6-yPey9t8ZIe83cqj6cy30RZ/view?usp=sharing)

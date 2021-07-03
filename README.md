@@ -5,11 +5,11 @@ This repository contains some resources of our paper:
 ## Framework
 1. Offline System
 
-![image](https://github.com/cxa-unique/offline-relevance-weighting/blob/main/offline_system.bmp)
+![image](https://github.com/cxa-unique/offline-relevance-weighting/blob/main/offline_system.jpg)
 
 2. Online System
 
-![image](https://github.com/cxa-unique/offline-relevance-weighting/blob/main/online_system.bmp)
+![image](https://github.com/cxa-unique/offline-relevance-weighting/blob/main/online_system.jpg)
 
 ## Resources
 1. Selected neighbour documents<sup>*</sup>: 

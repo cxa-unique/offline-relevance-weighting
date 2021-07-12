@@ -1,6 +1,6 @@
 # Contextualized Offline Relevance Weighting
 This repository contains some resources of our paper:
-- Contextualized Offline Relevance Weighting for Efficient and Effective Neural Retrieval. In *SIGIR 2021*.
+- [Contextualized Offline Relevance Weighting for Efficient and Effective Neural Retrieval](https://dl.acm.org/doi/pdf/10.1145/3404835.3463073). In *SIGIR 2021*.
 
 ## Framework
 1. Offline System
@@ -58,7 +58,8 @@ If you find our paper/resources useful, please cite:
            Le Sun and
            Yingfei Sun},
  title = {Contextualized Offline Relevance Weighting for Efficient and Effective Neural Retrieval},
- booktitle = {Proc. of SIGIR},
+ booktitle = {Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+ pages = {1617-1621},
  year = {2021},
 }
 ```

@@ -53,13 +53,13 @@ def get_bm25_score_from_index(index_reader, q_neighbors, query_dict, output_scor
                 w.write(q_id + '\t' + p_id + '\t' + str(score) + '\n')
 
 def main():
-    parser = argparse.ArgumentParser(description='Rank candidate neighbour docs.')
+    parser = argparse.ArgumentParser(description='Read BM25 scores from corpus index.')
     parser.add_argument("--query_file", type=str, required=True, help='Query file: q_id \t q_text')
     parser.add_argument("--init_bm25_file", type=str, required=True, help='TREC format')
     parser.add_argument("--seed_doc_num", type=int, default=50, help='The num of seed doc from init BM25 run.')
-    parser.add_argument("--neighbour_doc_file", type=str, required=True, help='p_id \t p_id \t rank \t recall_freq \t bm25_score')
-    parser.add_argument("--output_q_pgqs_bm25_file", type=str, required=True, help='query_id \t p_id \t bm25_score')
-    parser.add_argument("--index_dir", type=str, required=True, help='The index dir from Anserini.')
+    parser.add_argument("--neighbour_doc_file", type=str, required=True, help='p_id \t np_id \t rank \t recall_freq \t bm25_score')
+    parser.add_argument("--output_q_pgqs_bm25_file", type=str, required=True, help='q_id \t p_id \t bm25_score')
+    parser.add_argument("--index_dir", type=str, required=True, help='The index dir constructed by Anserini.')
 
     args = parser.parse_args()
 

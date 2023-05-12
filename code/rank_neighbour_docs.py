@@ -179,13 +179,13 @@ def main():
     parser = argparse.ArgumentParser(description='Rank candidate neighbour docs.')
     parser.add_argument("--init_bm25_file", type=str, required=True, help='TREC format')
     parser.add_argument("--seed_doc_num", type=int, default=50, help='The num of seed doc from init BM25 run.')
-    parser.add_argument("--neighbour_doc_file", type=str, required=True, help='p_id \t p_id \t rank \t recall_freq \t bm25_score')
+    parser.add_argument("--neighbour_doc_file", type=str, required=True, help='p_id \t np_id \t rank \t recall_freq \t bm25_score')
     parser.add_argument("--qgq_score_file", type=str, required=True, help='query_id \t pseudo-query_id \t score')
     parser.add_argument("--gqp_score_file", type=str, required=True, help='query_id \t pseudo-query_id \t neighbour_id \t score')
     parser.add_argument("--q_pgqs_bm25_file", type=str, required=True, help='query_id \t p_id \t bm25_score')
-    parser.add_argument("--alpha_weight", type=float, default=0.9, help='weight on BERT score')
-    parser.add_argument("--output_rank_file", type=str, required=True, help='The output run file, TREC format')
-    parser.add_argument("--hits_num", type=int, default=1000, help='The num of doc ranked for each query.')
+    parser.add_argument("--alpha_weight", type=float, default=0.9, help='The weight on BERT score')
+    parser.add_argument("--output_rank_file", type=str, required=True, help='The output run file in TREC format')
+    parser.add_argument("--hits_num", type=int, default=1000, help='The num of document ranked for each query.')
 
     args = parser.parse_args()
 

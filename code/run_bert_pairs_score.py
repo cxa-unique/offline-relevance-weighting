@@ -52,7 +52,7 @@ def save_scores(args, scores):
 
 
 def main():
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(description='BERT ranker/scorer.')
     parser.add_argument("--device",
                         default=None,
                         type=str,

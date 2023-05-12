@@ -55,12 +55,12 @@ def load_neighbors(neighbors_file):
 
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='Prepare pseudo-query text for bm25 retrieval.')
+    parser = argparse.ArgumentParser(description='Prepare query-doc text pairs for relevance scoring.')
     parser.add_argument("--init_bm25_file", type=str, required=True, help='TREC format')
     parser.add_argument('--original_query_file', required=True, help='q_id \t q_text')
     parser.add_argument('--pseudo_query_file', required=True, help='gq_id \t gq_text')
     parser.add_argument('--corpus_file', required=True, help='File containing corpus text')
-    parser.add_argument("--neighbour_doc_file", type=str, required=True, help='p_id \t p_id \t rank \t recall_freq \t bm25_score')
+    parser.add_argument("--neighbour_doc_file", type=str, required=True, help='p_id \t np_id \t rank \t recall_freq \t bm25_score')
     parser.add_argument("--output_qgq_text_file", type=str, required=True, help='q_id \t gq_id \t q_text \t gq_text')
     parser.add_argument("--output_gqp_text_file", type=str, required=True, help='q_id \t gq_id \t p_id \t gq_text \t p_text')
     parser.add_argument("--seed_doc_num", type=int, default=50, help='The num of seed doc from init BM25 run.')
